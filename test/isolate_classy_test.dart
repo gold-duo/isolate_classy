@@ -51,7 +51,6 @@ Future<int> positionArgument6(int a1, int a2, int a3, int a4, int a5, int a6) as
 }
 
 Future<void> _testOnlyPositionArgument() async {
-  final x = positionArgument2.call(1, 2);
   test("positionArgument0", () async {
     expect(await positionArgument0.isolate(), -1000);
   });

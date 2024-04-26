@@ -107,7 +107,7 @@ final class IsolateUtils {
     }
 
     try {
-      final isolate = Isolate.spawn(_execute, msg,
+      /*final isolate = */Isolate.spawn(_execute, msg,
           onError: resultPort.sendPort,
           onExit: resultPort.sendPort,
           errorsAreFatal: true,
