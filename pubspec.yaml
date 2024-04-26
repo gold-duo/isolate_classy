@@ -1,7 +1,14 @@
 name: isolate_classy
-description: A starting point for Dart libraries or applications.
+description: It makes very easy and elegant for your asynchronous functions to run on isolate.
 version: 1.0.0
 repository: https://github.com/gold-duo/isolate_classy
+
+platforms:
+  android:
+  ios:
+  macos:
+  linux:
+  windows:
 
 environment:
   sdk: ^3.3.3

@@ -1,4 +1,4 @@
-It makes it very easy and elegant for your asynchronous functions to run on isolate, just add ".isolate" or ".isolateX" (x is the number [0-6])
+It makes very easy and elegant for your asynchronous functions to run on isolate, just add ".isolate" or ".isolateX" (x is the number [0-6])
 ## Features
 
 Just call ".isolate" or ".isolateX" to make your asynchronous function to run on isolate
