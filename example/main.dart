@@ -37,9 +37,9 @@ Future<void> main() async {
 
   value=await nameArgument4.isolate4(1,2,3,4,{#desc: "4 positional parameter with named parameter function"});
   print('nameArgument4 return $value');
-  value=await nameArgument5.isolate5(1,2,3,4,5,{#desc: "4 positional parameter with named parameter function"});
+  value=await nameArgument5.isolate5(1,2,3,4,5,{#desc: "5 positional parameter with named parameter function"});
   print('nameArgument5 return $value');
-  value=await nameArgument6.isolate6(1,2,3,4,5,6,{#desc: "4 positional parameter with named parameter function"});
+  value=await nameArgument6.isolate6(1,2,3,4,5,6,{#desc: "6 positional parameter with named parameter function"});
   print('nameArgument6 return $value');
 }
 

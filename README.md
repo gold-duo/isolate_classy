@@ -23,7 +23,7 @@ await func(1,2,3);//runs on the main isolate
 await func.isolate(1,2,3);//runs on the new isolate
 ```
 
-- 2.Asynchronous functions without named parameters run on isolate
+- 2.Asynchronous functions with named parameters run on isolate
 ```dart
 Future<int> func({double width,double height,Color? color})async{
 }
