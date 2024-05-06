@@ -1,4 +1,4 @@
-It makes very easy and elegant for your asynchronous functions to run on isolate, just add ".isolate" or ".isolateX" (x is the number [0-6])
+It makes very easy and elegant for your asynchronous functions to run on isolate, just add ".isolate" or ".isolateX" (x is the number [1-6])
 ## Features
 
 Just call ".isolate" or ".isolateX" to make your asynchronous function to run on isolate
@@ -33,7 +33,7 @@ Future<int> func6(int a1,int a2,int a3,int a4,int a5,int a6,{double width,double
 await func.isolate({#width:100,#height:200,#color: Colors.blue});//There are no positional parameters
 await func1.isolate1(1,{#width:100,#height:200,#color: Colors.blue});//1 positional parameters
 //...
-await func1.isolate6(1,2,3,4,5,6,{#width:100,#height:200,#color: Colors.blue});//1 positional parameters
+await func1.isolate6(1,2,3,4,5,6,{#width:100,#height:200,#color: Colors.blue});//6 positional parameters
 ```
 
 ## Additional information
